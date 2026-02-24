@@ -49,17 +49,17 @@ pip install -r requiements.txt
 ```bash
 export LD_LIBRARY_PATH=/opt/modules/nvidia-cuda-11.8.0/lib64:$LD_LIBRARY_PATH
 export PATH=/opt/modules/nvidia-cuda-11.8.0/bin:$PATH
+```
 
-
-### Datasets Preparation:
+## Datasets Preparation:
 TODO
 
 
-### Checkpoints Downloads:
+## Checkpoints Downloads:
 TODO
 
 
-### Visual Results Downloads:
+## Visual Results Downloads:
 TODO
 
 
