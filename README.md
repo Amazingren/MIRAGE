@@ -72,6 +72,8 @@ TODO
 
 
 ## Acknowledgements
+This work was partially supported by the FIS project GUIDANCE (Debugging Computer Vision Models via Controlled Cross-modal Generation) (No. FIS2023-03251).
+
 The code base is built on top of excellent prior work, including:
 - [PromptIR](https://github.com/va1shn9v/PromptIR)
 - [AirNet](https://github.com/XLearning-SCU/2022-CVPR-AirNet)
