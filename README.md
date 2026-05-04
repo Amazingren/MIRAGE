@@ -176,9 +176,31 @@ TODO
 TODO
 
 
-
 ## Training
+### 1) 3-Degradation Setting
+```bash
+# 🦖 Tiny Model (6M)
+sh train_3deg_tiny.sh
+
+# 🦖 Small Model (10M)
+sh train_3deg_small.sh
+```
+
+### 2) 5-Degradation Setting
+```bash
+# 🦖 Tiny Model (6M)
+sh train_5deg_tiny.sh
+
+# 🦖 Small Model (10M)
+sh train_5deg_small.sh
+```
+
+### 3) Composited / Mixed (CDD11) Degradation Setting
 TODO
+
+### 4) 4-Task Adverse Weather Removal.
+TODO
+
 
 
 
