@@ -26,7 +26,6 @@ $\dagger$: Corresponding author <br>
 ## Method
 
 
-
 ## Installation
 ### 1) Environment
 ```bash
@@ -65,14 +64,34 @@ export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 ```
 
 ## Datasets Preparation:
-1. 3 Degradations & 5 Degradations Settings
-You are suggested to follow the setup from P
+### 1) 3-Degradation and 5-Degradation Settings
+
+We follow the dataset preparation protocols from the following works:
+
+- **3-Degradation setting**: Please refer to [PromptIR](https://github.com/va1shn9v/PromptIR/blob/main/INSTALL.md)
+- **5-Degradation setting**: Please refer to [AdaIR](https://github.com/c-yn/AdaIR/blob/main/INSTALL.md)
+
+### 2) Preprocessed Datasets (Optional)
+
+For convenience, we also provide preprocessed datasets via Google Drive:
+
+> ⚠️ **Important**  
+> Please strictly follow the original dataset licenses and usage policies.  
+> The provided links are for **academic research purposes only**.
+
+**For Training:**
+| Dehaze | Derain | Denoising | Deblurring | Low-light |
+|--------|--------|-----------|------------|-----------|
+| [Download(11.2G)](https://drive.google.com/file/d/13LBouXHNsMKyL5rEpnnpXer2RaBZ1Xwq/view?usp=sharing) | [Download(103.6M)](https://drive.google.com/file/d/12ugQ-jKevGDSwbi0im5Uh6dLXZXISCou/view?usp=sharing) | [Download(3.02G)](https://drive.google.com/file/d/1O8k0hXHYn0FtIR7ABViwP1MksGtN0YGa/view?usp=sharing) | [Download(3.8G)](https://drive.google.com/file/d/1d7ga-ZE4iWTsW-CFnKpTsgWB4d6rHVru/view?usp=sharing) | [Download(322.0M)](https://drive.google.com/file/d/1P9tVjPp4G4jftG-9VhYv_0-kRpoZimlu/view?usp=sharing) |
+
+**For Inference:**
 
 
-2. CDD11 (Composited/Mixed Degradations).
+### 2) CDD11 (Composited/Mixed Degradations).
 
 
-3. 4-task Adverse Weather Removal.
+
+### 3) 4-task Adverse Weather Removal.
 
 
 
