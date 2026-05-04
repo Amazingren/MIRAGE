@@ -17,7 +17,8 @@ $\dagger$: Corresponding author <br>
 
 
 <p align="center">
-  <img src="assets/teaser.png" width="80%">
+  <img src="assets/teaser.png" width="98%">
+  <figcaption><em>(a)-(d): Visual comparison for Denoising, Deraining, Composited Degradations (low-light, haze, and snow), and underwater image enhancement. (e): The average PSNR and SSIM comparison across 4 challenging all-in-one and 1 zero-shot settings (Please zoom in for a better view).</em></figcaption>
 </p>
 
 ## Latest News:
