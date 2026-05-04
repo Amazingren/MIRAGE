@@ -15,7 +15,12 @@ $\dagger$: Corresponding author <br>
 <sup>6</sup> Peking University, China, <br>
 <sup>7</sup> University of California, Merced, USA <br>
 
-## Latest
+
+<p align="center">
+  <img src="assets/teaser.png" width="80%">
+</p>
+
+## Latest News:
 - [ ] Projectpage release. 
 - [ ] Main visual results release. 
 - [ ] Checkpoints release.
