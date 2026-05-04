@@ -2,11 +2,15 @@
 
 The official PyTorch Implementation of MIRAGE for All-in-One Image Restoration
 
+<p align="center">
+  <img src="assets/teaser.png" width="98%">
+  <figcaption><em>Teaser: (a)-(d): Visual comparison for Denoising, Deraining, Composited Degradations (low-light, haze, and snow), and underwater image enhancement. (e): The average PSNR and SSIM comparison across 4 challenging all-in-one and 1 zero-shot settings (Please zoom in for a better view).</em></figcaption>
+</p>
+
 #### [Bin Ren <sup>1,2</sup>](https://amazingren.github.io/), [Yawei Li<sup>5</sup>](https://yaweili.bitbucket.io/), [Xu Zheng<sup>4</sup>](https://scholar.google.com/citations?hl=en&user=Ii1c51QAAAAJ), [Yuqian Fu<sup>5</sup>](https://scholar.google.com/citations?user=y3Bpp1IAAAAJ&hl=en&oi=ao), [Danda Pani Paudel<sup>5</sup>](https://scholar.google.com/citations?user=W43pvPkAAAAJ&hl=en), [Hong Liu<sup>6</sup>](https://scholar.google.com/citations?user=WLMUAjsAAAAJ&hl=en)$^\dagger$, [Ming-Hsuan Yang <sup>7</sup>](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Luc Van Gool <sup>5</sup>](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en), and [Nicu Sebe <sup>2</sup>](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)
 
 
 $\dagger$: Corresponding author <br>
-
 <sup>1</sup> Mohamed bin Zayed University of Artificial Intelligence, UAE, <br>
 <sup>2</sup> University of Trento, Italy, <br>
 <sup>3</sup> ETH Zürich, Switzerland, <br>
@@ -15,11 +19,6 @@ $\dagger$: Corresponding author <br>
 <sup>6</sup> Peking University, China, <br>
 <sup>7</sup> University of California, Merced, USA <br>
 
-
-<p align="center">
-  <img src="assets/teaser.png" width="98%">
-  <figcaption><em>(a)-(d): Visual comparison for Denoising, Deraining, Composited Degradations (low-light, haze, and snow), and underwater image enhancement. (e): The average PSNR and SSIM comparison across 4 challenging all-in-one and 1 zero-shot settings (Please zoom in for a better view).</em></figcaption>
-</p>
 
 ## Latest News:
 - [ ] Projectpage release. 
@@ -136,20 +135,16 @@ For convenience, we provide preprocessed and well-organized datasets via Google 
         └── target/
 ```
 
-
----
 ### 2) CDD11 (Composited / Mixed Degradations)
 |Train|Test|
 |---|---|
 |[Download(22.5G)]()|[Download(3.79G)]()|
 
 
----
 ### 3) 4-Task Adverse Weather Removal.
 |Train & Test|
 |---|
 |[Download(17.1G)]()|
-
 
 ## Checkpoints Downloads:
 TODO
@@ -162,8 +157,15 @@ TODO
 ## Citation
 If you find this project useful, please cite:
 ```bibtex
-TODO
+@inproceedings{ren2026efficient,
+  title={Efficient Degradation-agnostic Image Restoration via Channel-Wise Functional Decomposition and Manifold Regularization}, 
+  author={Bin Ren and Yawei Li and Xu Zheng and Yuqian Fu and Danda Pani Paudel and Hong Liu and Ming-Hsuan Yang and Luc Van Gool and Nicu Sebe},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026}
+}
 ```
+
+
 
 
 ## Acknowledgements
