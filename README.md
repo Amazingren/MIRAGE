@@ -63,36 +63,81 @@ export PATH=$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 ```
 
-## Datasets Preparation:
+## Dataset Preparation
+
 ### 1) 3-Degradation and 5-Degradation Settings
 
-We follow the dataset preparation protocols from the following works:
+We follow the dataset preparation protocols from the following prior works:
 
-- **3-Degradation setting**: Please refer to [PromptIR](https://github.com/va1shn9v/PromptIR/blob/main/INSTALL.md)
-- **5-Degradation setting**: Please refer to [AdaIR](https://github.com/c-yn/AdaIR/blob/main/INSTALL.md)
+* **3-Degradation setting**: [PromptIR](https://github.com/va1shn9v/PromptIR/blob/main/INSTALL.md)
+* **5-Degradation setting**: [AdaIR](https://github.com/c-yn/AdaIR/blob/main/INSTALL.md)
 
-### 2) Preprocessed Datasets (Optional)
+#### (Optional) Preprocessed Datasets
 
-For convenience, we also provide preprocessed datasets via Google Drive:
+For convenience, we provide preprocessed and well-organized datasets via Google Drive.
 
-> ⚠️ **Important**  
-> Please strictly follow the original dataset licenses and usage policies.  
-> The provided links are for **academic research purposes only**.
+> ⚠️ **Important**
+> Please strictly follow the original dataset licenses and usage policies.
+> The provided datasets are for **academic research purposes only**.
 
-**For Training:**
+**Training Sets:**
+
 | Dehaze | Derain | Denoising | Deblurring | Low-light |
-|--------|--------|-----------|------------|-----------|
-| [Download(11.2G)](https://drive.google.com/file/d/13LBouXHNsMKyL5rEpnnpXer2RaBZ1Xwq/view?usp=sharing) | [Download(103.6M)](https://drive.google.com/file/d/12ugQ-jKevGDSwbi0im5Uh6dLXZXISCou/view?usp=sharing) | [Download(3.02G)](https://drive.google.com/file/d/1O8k0hXHYn0FtIR7ABViwP1MksGtN0YGa/view?usp=sharing) | [Download(3.8G)](https://drive.google.com/file/d/1d7ga-ZE4iWTsW-CFnKpTsgWB4d6rHVru/view?usp=sharing) | [Download(322.0M)](https://drive.google.com/file/d/1P9tVjPp4G4jftG-9VhYv_0-kRpoZimlu/view?usp=sharing) |
+| --- | --- | --- | ---| --- |
+| [Download (11.2G)](https://drive.google.com/file/d/13LBouXHNsMKyL5rEpnnpXer2RaBZ1Xwq/view?usp=sharing) | [Download (103.6M)](https://drive.google.com/file/d/12ugQ-jKevGDSwbi0im5Uh6dLXZXISCou/view?usp=sharing) | [Download (3.02G)](https://drive.google.com/file/d/1O8k0hXHYn0FtIR7ABViwP1MksGtN0YGa/view?usp=sharing) | [Download (3.8G)](https://drive.google.com/file/d/1d7ga-ZE4iWTsW-CFnKpTsgWB4d6rHVru/view?usp=sharing) | [Download (322.0M)](https://drive.google.com/file/d/1P9tVjPp4G4jftG-9VhYv_0-kRpoZimlu/view?usp=sharing) |
 
-**For Inference:**
+> If you directly download the datasets from the above links, the directory structure is already organized as required as below:
+```
+.../datasets/Train/
+├── Deblur/
+│   ├── blur/
+│   └── sharp/
+├── Dehaze/
+│   ├── train/
+│   └── test/
+├── Denoise/
+│   ├── ...
+│   └── xxx.png / xxx.jpg
+├── Derain/
+│   ├── gt/
+│   └── rainy/
+└── Enhance/
+    ├── gt/
+    └── low/
+```
+
+**Inference Sets:**
+> Please download the preprocessed test sets via [Download]() (including both the 3-Degradation and 5-Degradation settings). The datasets are already organized as follows:
+```
+.../datasets/test/
+├── deblur/
+│   └── gopro/
+│       ├── input/
+│       └── target/
+├── dehaze/
+│   ├── input/
+│   └── target/
+├── denoise/
+│   ├── bsd68/
+│   └── urban100/
+├── derain/
+│   └── Rain100L/
+│       ├── input/
+│       └── target/
+└── enhance/
+    └── lol/
+        ├── input/
+        └── target/
+```
 
 
-### 2) CDD11 (Composited/Mixed Degradations).
+---
+### 2) CDD11 (Composited / Mixed Degradations)
 
-
-
+---
 ### 3) 4-task Adverse Weather Removal.
 
+[TODO]
 
 
 ## Checkpoints Downloads:
