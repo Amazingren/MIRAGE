@@ -133,11 +133,16 @@ For convenience, we provide preprocessed and well-organized datasets via Google 
 
 ---
 ### 2) CDD11 (Composited / Mixed Degradations)
+|Train|Test|
+|---|---|
+|[Download(22.5G)]()|[Download(3.79G)]()|
+
 
 ---
-### 3) 4-task Adverse Weather Removal.
-
-[TODO]
+### 3) 4-Task Adverse Weather Removal.
+|Train & Test|
+|---|
+|[Download(17.1G)]()|
 
 
 ## Checkpoints Downloads:
