@@ -5,7 +5,7 @@
 </p>
 
 
-The official PyTorch Implementation of MIRAGE for All-in-One Image Restoration
+The official PyTorch Implementation of MIRAGE for All-in-One Image Restoration.
 
 <p align="center">
   <a href="https://arxiv.org/pdf/2505.18679">
@@ -44,7 +44,7 @@ $\dagger$: Corresponding author <br>
 - [ ] Main visual results release. 
 - [ ] Checkpoints release.
 - [x] Code release.
-- `01/2026`: 🍺🎉 Our MIRAGE is accepted by ICLR2026!
+- `01/2026`: 🍺 Our MIRAGE is accepted by ICLR2026!
 
 
 ## Method
@@ -165,15 +165,24 @@ For convenience, we provide preprocessed and well-organized datasets via Google 
 |---|
 |[Download(17.1G)]()|
 
-## Checkpoints Downloads:
-TODO
-
 
 ## Visual Results Downloads:
 TODO
 
+## Checkpoints Downloads:
+TODO
 
-## Citation
+## Inference
+TODO
+
+
+
+## Training
+TODO
+
+
+
+## Cite Our Work
 If you find this project useful, please cite:
 ```bibtex
 @inproceedings{ren2026efficient,
@@ -183,9 +192,6 @@ If you find this project useful, please cite:
   year={2026}
 }
 ```
-
-
-
 
 ## Acknowledgements
 This work was partially supported by the FIS project GUIDANCE (Debugging Computer Vision Models via Controlled Cross-modal Generation) (No. FIS2023-03251).
