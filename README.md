@@ -62,8 +62,7 @@ pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https
 
 ### 2) Dependencies
 ```bash
-# NOTE: file in this repo is currently named "requiements.txt"
-pip install -r requiements.txt
+pip install -r requirements.txt
 ```
 
 ### 3) CUDA Setup (if needed on your machine/cluster)
@@ -101,7 +100,7 @@ We follow the dataset preparation protocols from the following prior works:
 
 For convenience, we provide preprocessed and well-organized datasets via Google Drive.
 
-> ⚠️ **Important**
+> ⚠️ **Important:**
 > Please strictly follow the original dataset licenses and usage policies.
 > The provided datasets are for **academic research purposes only**.
 
