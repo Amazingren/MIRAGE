@@ -22,7 +22,8 @@ $\dagger$: Corresponding author <br>
 - [ ] Projectpage release. 
 - [ ] Ckpts release. 
 - [ ] Main visual results release. 
-- [ ] Code release.
+- [ ] Ckpts release. 
+- [x] Code release.
 - `01/2026`: 🍺🎉 Our MIRAGE is accepted by ICLR2026!
 
 
