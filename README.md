@@ -12,12 +12,13 @@ The official PyTorch Implementation of MIRAGE for All-in-One Image Restoration.
     <img src="https://img.shields.io/badge/arXiv-2504.14249-b31b1b.svg">
   </a>
   <a href="https://openreview.net/pdf?id=jDMAvoLsVj">
-    <img src="https://img.shields.io/badge/OpenReview-Paper-blue">
+    <img src="https://img.shields.io/badge/OpenReview-ICLR%202026-blue">
   </a>
   <a href="https://github.com/Amazingren/MIRAGE">
     <img src="https://img.shields.io/badge/Project-Page-green">
   </a>
   <img src="https://img.shields.io/badge/PyTorch-Lightning-purple">
+  </a>
   <img src="https://img.shields.io/badge/Task-All--in--One%20IR-blue">
 </p>
 
@@ -40,10 +41,10 @@ $\dagger$: Corresponding author <br>
 
 
 ## Latest News:
-- [ ] Projectpage release. 
-- [ ] Main visual results release. 
-- [ ] Checkpoints release.
-- [x] Code release.
+- [ ] Projectpage Release. 
+- [ ] Main Visual Results Release. 
+- [ ] Checkpoints Release.
+- [x] Code Release.
 - `01/2026`: 🍺 Our MIRAGE is accepted by ICLR2026!
 
 
@@ -157,7 +158,7 @@ For convenience, we provide preprocessed and well-organized datasets via Google 
 ### 2) CDD11 (Composited / Mixed Degradations)
 |Train|Test|
 |---|---|
-|[Download(22.5G)]()|[Download(3.79G)]()|
+|[Download(22.5G)]()|[Download(3.53G)](https://drive.google.com/file/d/1LzTq3-qy2N8cNWuriqfJvHVaYHeimKQp/view?usp=sharing)|
 
 
 ### 3) 4-Task Adverse Weather Removal.
