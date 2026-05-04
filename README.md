@@ -191,6 +191,12 @@ sh test_5deg_tiny.sh
 sh test_5deg_small.sh
 ```
 
+### 3) Composited / Mixed (CDD11) Degradation Setting
+TODO
+
+### 4) 4-Task Adverse Weather Removal.
+TODO
+
 
 ## Training
 ### 1) 3-Degradation Setting
@@ -201,13 +207,6 @@ sh train_3deg_tiny.sh
 # 🦖 Small Model (10M)
 sh train_3deg_small.sh
 ```
-
-### 3) Composited / Mixed (CDD11) Degradation Setting
-TODO
-
-### 4) 4-Task Adverse Weather Removal.
-TODO
-
 
 ### 2) 5-Degradation Setting
 ```bash
@@ -223,8 +222,6 @@ TODO
 
 ### 4) 4-Task Adverse Weather Removal.
 TODO
-
-
 
 
 ## Cite Our Work
