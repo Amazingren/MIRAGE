@@ -40,11 +40,11 @@ $\dagger$: Corresponding author <br>
 <sup>7</sup> University of California, Merced, USA <br>
 
 
-## Latest News:
+## Latest & News:
 - [ ] Projectpage Release. 
 - [ ] Main Visual Results Release. 
 - [ ] Checkpoints Release.
-- [x] Code Release.
+- [x] `05/2026`: Code Release.
 - `01/2026`: 🍺 Our MIRAGE is accepted by ICLR2026!
 
 
@@ -157,7 +157,7 @@ For convenience, we provide preprocessed and well-organized datasets via Google 
 ### 2) CDD11 (Composited / Mixed Degradations)
 |Train|Test|
 |---|---|
-|[Download(22.5G)]()|[Download(3.53G)](https://drive.google.com/file/d/1LzTq3-qy2N8cNWuriqfJvHVaYHeimKQp/view?usp=sharing)|
+|[Download(21.0G)](https://drive.google.com/file/d/1lbh4BoL9T210vv4YnW33FbIcoC7vbzk6/view?usp=sharing)|[Download(3.5G)](https://drive.google.com/file/d/1LzTq3-qy2N8cNWuriqfJvHVaYHeimKQp/view?usp=sharing)|
 
 
 ### 3) 4-Task Adverse Weather Removal.
