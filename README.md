@@ -121,7 +121,7 @@ For convenience, we provide preprocessed and well-organized datasets via Google 
 │   └── test/
 ├── Denoise/
 │   ├── ...
-│   └── xxx.png / xxx.jpg
+│   └── xxx.bmp / xxx.jpg
 ├── Derain/
 │   ├── gt/
 │   └── rainy/
