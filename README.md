@@ -1,6 +1,25 @@
-# MIRAGE: Efficient Degradation-agnostic Image Restoration via Channel-Wise Functional Decomposition and Manifold Regularization
+# MIRAGE: 
+
+<p align="center">
+  <b>Efficient Degradation-agnostic Image Restoration via Channel-Wise Functional Decomposition and Manifold Regularization</b><br/>
+</p>
+
 
 The official PyTorch Implementation of MIRAGE for All-in-One Image Restoration
+
+<p align="center">
+  <a href="https://arxiv.org/pdf/2505.18679">
+    <img src="https://img.shields.io/badge/arXiv-2504.14249-b31b1b.svg">
+  </a>
+  <a href="https://openreview.net/pdf?id=jDMAvoLsVj">
+    <img src="https://img.shields.io/badge/OpenReview-Paper-blue">
+  </a>
+  <a href="https://github.com/Amazingren/MIRAGE">
+    <img src="https://img.shields.io/badge/Project-Page-green">
+  </a>
+  <img src="https://img.shields.io/badge/PyTorch-Lightning-purple">
+  <img src="https://img.shields.io/badge/Task-All--in--One%20IR-blue">
+</p>
 
 <p align="center">
   <img src="assets/teaser.png" width="98%">
