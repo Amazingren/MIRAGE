@@ -94,8 +94,8 @@ export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 
 We follow the dataset preparation protocols from the following prior works:
 
-* **3-Degradation setting**: [PromptIR](https://github.com/va1shn9v/PromptIR/blob/main/INSTALL.md)
-* **5-Degradation setting**: [AdaIR](https://github.com/c-yn/AdaIR/blob/main/INSTALL.md)
+* **3-Degradation setting**: [PromptIR(NeurIPS2023)](https://github.com/va1shn9v/PromptIR/blob/main/INSTALL.md)
+* **5-Degradation setting**: [AdaIR(ICLR2025)](https://github.com/c-yn/AdaIR/blob/main/INSTALL.md)
 
 #### (Optional) Preprocessed Datasets
 
@@ -189,7 +189,7 @@ If you find this project useful, please cite:
 @inproceedings{ren2026efficient,
   title={Efficient Degradation-agnostic Image Restoration via Channel-Wise Functional Decomposition and Manifold Regularization}, 
   author={Bin Ren and Yawei Li and Xu Zheng and Yuqian Fu and Danda Pani Paudel and Hong Liu and Ming-Hsuan Yang and Luc Van Gool and Nicu Sebe},
-  booktitle={The Fourteenth International Conference on Learning Representations},
+  booktitle={The Fourteenth International Conference on Learning Representations(ICLR)},
   year={2026}
 }
 ```
@@ -198,5 +198,5 @@ If you find this project useful, please cite:
 This work was partially supported by the FIS project GUIDANCE (Debugging Computer Vision Models via Controlled Cross-modal Generation) (No. FIS2023-03251).
 
 The code base is built on top of excellent prior work, including:
-- [PromptIR](https://github.com/va1shn9v/PromptIR)
-- [AirNet](https://github.com/XLearning-SCU/2022-CVPR-AirNet)
+- [PromptIR(NeurIPS2023)](https://github.com/va1shn9v/PromptIR)
+- [AirNet(CVPR2022)](https://github.com/XLearning-SCU/2022-CVPR-AirNet)
