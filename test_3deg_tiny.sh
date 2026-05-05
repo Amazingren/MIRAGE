@@ -13,14 +13,14 @@ conda activate /share_5/users/bin_ren/envs/anyir
 # Project directory
 cd /share_5/users/bin_ren/project/ll/MIRAGE
 
-### ===== [2] Configurations =====
+### ===== Configurations =====
 DENOISE_DIR="/share_5/users/bin_ren/datasets/ll/test/denoise/"
 DERAIN_DIR="/share_5/users/bin_ren/datasets/ll/test/derain/"
 DEHAZE_DIR="/share_5/users/bin_ren/datasets/ll/test/dehaze/"
 GOPRO_DIR="/share_5/users/bin_ren/datasets/ll/test/deblur/"
 ENHANCE_DIR="/share_5/users/bin_ren/datasets/ll/test/enhance/"
 
-LOG_DIR="./outputs/3deg_tiny_ep128"
+LOG_DIR="./outputs/3deg_tiny"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/test_$(date +%Y%m%d_%H%M%S).log"
 
@@ -30,7 +30,7 @@ exec > >(tee -a "$LOG_FILE") 2>&1
 echo "Logging to: $LOG_FILE"
 
 ### ===== [3] Launch Training =====
-CUDA_VISIBLE_DEVICES=0 python test.py \
+CUDA_VISIBLE_DEVICES=0 python test_tiny.py \
     --trainset AnyIR \
     --mode 5 \
     --denoise_path "$DENOISE_DIR" \
@@ -38,5 +38,5 @@ CUDA_VISIBLE_DEVICES=0 python test.py \
     --dehaze_path "$DEHAZE_DIR" \
     --gopro_path "$GOPRO_DIR" \
     --enhance_path "$ENHANCE_DIR" \
-    --ckpt_name 3deg_tiny/epoch=128.ckpt \
+    --ckpt_name 3deg_tiny/3Deg_tiny.ckpt \
     --output_path ./outputs/3deg_tiny

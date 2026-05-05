@@ -177,6 +177,9 @@ TODO
 
 ## Inference
 ### 1) 3-Degradation Setting
+- Step1: Please downloads the pretrained model via above links and put the corresponding ckpts under `./train_ckpt/3deg_[tiny/small]/`
+- Step2: Use the correct *Project directory* and test set path *Configurations* in `test_3deg_[tiny/small].sh`
+- Step3: Ruing the following commonds for each type of all-in-one setting.
 ```bash
 # 🦖 Tiny Model (6M)
 sh test_3deg_tiny.sh
@@ -186,6 +189,9 @@ sh test_3deg_small.sh
 ```
 
 ### 2) 5-Degradation Setting
+- Step1: Please downloads the pretrained model via above links and put the corresponding ckpts under `./train_ckpt/5deg_[tiny/small]/`
+- Step2: Use the correct *Project directory* and test set path *Configurations* in `test_5deg_[tiny/small].sh`
+- Step3: Ruing the following commonds for each type of all-in-one setting.
 ```bash
 # 🦖 Tiny Model (6M)
 sh test_5deg_tiny.sh
@@ -196,6 +202,7 @@ sh test_5deg_small.sh
 
 ### 3) Composited / Mixed (CDD11) Degradation Setting
 TODO
+
 
 ### 4) 4-Task Adverse Weather Removal.
 TODO
