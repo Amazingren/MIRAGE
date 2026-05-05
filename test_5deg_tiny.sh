@@ -20,7 +20,7 @@ DEHAZE_DIR="/share_5/users/bin_ren/datasets/ll/test/dehaze/"
 GOPRO_DIR="/share_5/users/bin_ren/datasets/ll/test/deblur/"
 ENHANCE_DIR="/share_5/users/bin_ren/datasets/ll/test/enhance/"
 
-LOG_DIR="./outputs/5deg_tiny_ep100"
+LOG_DIR="./outputs/5deg_tiny"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/test_$(date +%Y%m%d_%H%M%S).log"
 
@@ -39,5 +39,5 @@ CUDA_VISIBLE_DEVICES=0 python test_tiny.py \
     --dehaze_path "$DEHAZE_DIR" \
     --gopro_path "$GOPRO_DIR" \
     --enhance_path "$ENHANCE_DIR" \
-    --ckpt_name 5deg_tiny/epoch=100.ckpt \
+    --ckpt_name 5deg_tiny/5Deg_tiny.ckpt \
     --output_path ./outputs/5deg_tiny

@@ -20,7 +20,7 @@ DEHAZE_DIR="/share_5/users/bin_ren/datasets/ll/test/dehaze/"
 GOPRO_DIR="/share_5/users/bin_ren/datasets/ll/test/deblur/"
 ENHANCE_DIR="/share_5/users/bin_ren/datasets/ll/test/enhance/"
 
-LOG_DIR="./outputs/5deg_small_ep134"
+LOG_DIR="./outputs/5deg_small"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/test_$(date +%Y%m%d_%H%M%S).log"
 
@@ -30,7 +30,7 @@ exec > >(tee -a "$LOG_FILE") 2>&1
 echo "Logging to: $LOG_FILE"
 
 ### ===== [3] Launch Training =====
-CUDA_VISIBLE_DEVICES=2 python test_small.py \
+CUDA_VISIBLE_DEVICES=0 python test_small.py \
     --trainset AnyIR \
     --mode 6 \
     --avg_denoise_sigma 25 \
@@ -39,5 +39,5 @@ CUDA_VISIBLE_DEVICES=2 python test_small.py \
     --dehaze_path "$DEHAZE_DIR" \
     --gopro_path "$GOPRO_DIR" \
     --enhance_path "$ENHANCE_DIR" \
-    --ckpt_name 5deg_small/epoch=134.ckpt \
+    --ckpt_name 5deg_small/5Deg_small.ckpt \
     --output_path ./outputs/5deg_small
