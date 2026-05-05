@@ -21,7 +21,7 @@ EPOCHS=130
 FFT_LOSS_WEIGHT=0.1
 
 ### ===== [3] Launch Training =====
-CUDA_VISIBLE_DEVICES=5 python train_smal.py \
+CUDA_VISIBLE_DEVICES=5 python train_small.py \
     --trainset AnyIR \
     --ckpt_dir "$CKPT_DIR" \
     --de_type $DE_TYPES \

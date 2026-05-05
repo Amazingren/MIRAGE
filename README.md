@@ -172,7 +172,8 @@ TODO
 ## Checkpoints Downloads:
 | 3-Degradation Tiny (6M) | 3-Degradation Small (10M) | 5-Degradation Tiny (6M) | 5-Degradation Small (10M) |
 | --- | --- | --- | --- |
-| [Download (72.1M)](https://drive.google.com/file/d/1HH6ZkKr-e-kChrgHUc8nuEPDjXcj5H5E/view?usp=sharing) |  [Download ()]() |  [Download (72.1M)](https://drive.google.com/file/d/1GNjqXsVE7uik5wWpnuPAzC-C05S9DpgO/view?usp=sharing) |  [Download (111.8M)](https://drive.google.com/file/d/13C-eso1XB5VlTUCmubzrEAB4b_aSsHzb/view?usp=sharing)| 
+| [Download (72.1M)](https://drive.google.com/file/d/1HH6ZkKr-e-kChrgHUc8nuEPDjXcj5H5E/view?usp=sharing) |  [Download (111.8M)](https://drive.google.com/file/d/1kZqS7AQE93QX9tBtc2Aa8mqFEbauXLZy/view?usp=sharing) |  [Download (72.1M)](https://drive.google.com/file/d/1GNjqXsVE7uik5wWpnuPAzC-C05S9DpgO/view?usp=sharing) |  [Download (111.8M)](https://drive.google.com/file/d/13C-eso1XB5VlTUCmubzrEAB4b_aSsHzb/view?usp=sharing)| 
+
 
 ## Inference
 ### 1) 3-Degradation Setting

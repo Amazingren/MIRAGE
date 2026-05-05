@@ -40,4 +40,4 @@ CUDA_VISIBLE_DEVICES=2 python test_small.py \
     --gopro_path "$GOPRO_DIR" \
     --enhance_path "$ENHANCE_DIR" \
     --ckpt_name 5deg_small/epoch=134.ckpt \
-    --output_path ./outputs/5deg_small_ep134
+    --output_path ./outputs/5deg_small

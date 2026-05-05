@@ -40,4 +40,4 @@ CUDA_VISIBLE_DEVICES=0 python test_tiny.py \
     --gopro_path "$GOPRO_DIR" \
     --enhance_path "$ENHANCE_DIR" \
     --ckpt_name 5deg_tiny/epoch=100.ckpt \
-    --output_path ./outputs/5deg_tiny_ep100
+    --output_path ./outputs/5deg_tiny
