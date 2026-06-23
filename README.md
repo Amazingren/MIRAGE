@@ -198,6 +198,7 @@ We follow dataset preparation from prior works:
 | 3-Degradation Small | 10M | [⬇ 111.8M](https://drive.google.com/file/d/1kZqS7AQE93QX9tBtc2Aa8mqFEbauXLZy/view?usp=sharing) |
 | 5-Degradation Tiny  | 6M  | [⬇ 72.1M](https://drive.google.com/file/d/1GNjqXsVE7uik5wWpnuPAzC-C05S9DpgO/view?usp=sharing) |
 | 5-Degradation Small | 10M | [⬇ 111.8M](https://drive.google.com/file/d/13C-eso1XB5VlTUCmubzrEAB4b_aSsHzb/view?usp=sharing) |
+| CDD11 Small | 10M | [⬇ 111.8M](https://drive.google.com/file/d/1GLRMUDfjgWR7aW4DqnUDJzsPO98-cw5G/view?usp=sharing) |
 
 ---
 
